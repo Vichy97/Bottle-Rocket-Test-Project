@@ -1,0 +1,11 @@
+rootProject.name="StoreLocator"
+include(
+    ":app",
+    ":core-lib",
+    ":core-ui",
+    ":core-test",
+    ":util",
+    ":network",
+    ":data",
+    ":ui"
+)

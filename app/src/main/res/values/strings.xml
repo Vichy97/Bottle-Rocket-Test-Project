@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Store Locator</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB-bzETs-w3tKwz5-nmSeqqGBqa1Cw7K-E</string>
+</resources>

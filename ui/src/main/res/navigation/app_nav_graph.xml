@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/storesFragment">
+
+    <fragment
+        android:id="@+id/storesFragment"
+        android:name="com.vincent.ui.stores.StoresFragment"
+        tools:layout="@layout/fragment_stores"
+        android:label="@string/stores_fragment_label">
+
+        <action
+            android:id="@+id/action_storesFragment_to_storeDetailsFragment"
+            app:destination="@id/storeDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_left"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/storeDetailsFragment"
+        android:name="com.vincent.ui.store_details.StoreDetailsFragment"
+        tools:layout="@layout/fragment_store_details"
+        android:label="@string/store_details_fragment_label"/>
+</navigation>

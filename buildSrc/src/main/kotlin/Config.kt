@@ -1,0 +1,28 @@
+import org.gradle.api.JavaVersion
+
+object Java {
+
+    val SOURCE_COMPATIBILITY = JavaVersion.VERSION_1_8
+    val TARGET_COMPATIBILITY = JavaVersion.VERSION_1_8
+}
+
+object Android {
+
+    const val COMPILE_SDK = 29
+    const val MIN_SDK = 23
+    const val TARGET_SDK = 29
+
+    const val APPLICATION_ID = "com.vincent.store_locator"
+}
+
+object Version {
+
+    const val VERSION_CODE = 1
+    const val VERSION_NAME = "1.0"
+}
+
+object BuildTypes {
+
+    const val DEBUG = "debug"
+    const val RELEASE = "release"
+}

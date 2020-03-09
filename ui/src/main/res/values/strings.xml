@@ -1,0 +1,5 @@
+<resources>
+    <string name="stores_fragment_label">Stores</string>
+    <string name="store_details_fragment_label">Store Details</string>
+    <string name="no_stores_text">No stores found</string>
+</resources>
